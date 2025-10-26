@@ -1,0 +1,48 @@
+# ===== CodeVisionAVR Project =====
+
+# فایل‌های اصلی پروژه
+!*.c
+!*.h
+!*.prj
+!*.txt
+
+# فایل‌های Atmel Studio (در صورت نیاز نگه دار)
+# !*.atsln
+# !*.cproj
+
+# فایل‌های خروجی و موقتی
+*.obj
+*.o
+*.hex
+*.cof
+*.elf
+*.map
+*.lst
+*.sym
+*.dep
+*.log
+*.err
+*.tmp
+*.bak
+*.bck
+*.fct
+*.cbi
+*.cci
+*.hci
+
+# فایل‌های workspace و بکاپ IDE
+*.cwp
+*.cw~
+*.prj~
+*~
+
+# فولدرهای خروجی
+/Debug/
+/Release/
+/Output/
+/Build/
+
+# فایل‌های موقتی سیستم‌عامل
+.DS_Store
+Thumbs.db
+desktop.ini
